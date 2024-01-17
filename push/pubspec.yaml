@@ -15,8 +15,14 @@ dependencies:
 
   # Federated package dependencies
   push_platform_interface: ^0.5.0
-  push_android: ^0.5.0
-  push_ios: ^0.4.0
+  push_android:
+    git:
+      url: https://github.com/bull-xu/push.git
+      path: push_android
+  push_ios:
+    git:
+      url: https://github.com/bull-xu/push.git
+      path: push_ios
   push_macos: ^0.0.1
   # End of federated package dependencies
 
